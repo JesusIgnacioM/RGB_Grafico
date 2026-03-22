@@ -4,7 +4,7 @@
 ![](Imagenes/Imagen_1.png)
 _Gráfico en Metatrader 5_
 
-Este indicador gestiona la colorimetría del gráfico mediante un ciclo RGB, donde la frecuencia, milisegundos, y el paso de la cantidad de saltos dictan la transición. Incluye un monitor en tiempo real de los valores para las velas alcistas y las bajistas, al igual que un botón de control de estado.
+Este indicador gestiona la colorimetría del gráfico mediante un ciclo RGB, donde la frecuencia; milisegundos, y el paso de la cantidad de saltos dictan la transición. Incluye un monitor en tiempo real de los valores para las velas alcistas y las bajistas, al igual que un botón de control de estado.
 
 ```mql5
       case 0: G += PasoColor; if(G >= 255) { G = 255; FASE = 1; } break; //--- Rojo lleno, sube verde y va a fase 1
