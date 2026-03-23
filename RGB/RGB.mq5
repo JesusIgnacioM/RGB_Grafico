@@ -32,13 +32,13 @@ int OnInit()
 //--- Etiquetas de Monitor (R, G, B) ---\\
 
 // --- Etiquetas para Alcistas (BULL) ---\\
-   CrearObjeto(EtiquetaP+"BULL_TXT", OBJ_LABEL, 540, 55, 0, 0, "BULL ▲");
+   CrearObjeto(EtiquetaP+"BULL_TXT", OBJ_LABEL, 570, 55, 0, 0, "Alcista ▲");
    CrearObjeto(EtiquetaP+"BULL_R",   OBJ_LABEL, 470, 55, 0, 0, "R: 255");
    CrearObjeto(EtiquetaP+"BULL_G",   OBJ_LABEL, 400, 55, 0, 0, "G: 0");
    CrearObjeto(EtiquetaP+"BULL_B",   OBJ_LABEL, 330, 55, 0, 0, "B: 0");
 
 // --- Etiquetas para Bajistas (BEAR) ---\\
-   CrearObjeto(EtiquetaP+"BEAR_TXT", OBJ_LABEL, 540, 30, 0, 0, "BEAR ▼");
+   CrearObjeto(EtiquetaP+"BEAR_TXT", OBJ_LABEL, 570, 30, 0, 0, "Bajista ▼");
    CrearObjeto(EtiquetaP+"BEAR_R",   OBJ_LABEL, 470, 30, 0, 0, "R: 0");
    CrearObjeto(EtiquetaP+"BEAR_G",   OBJ_LABEL, 400, 30, 0, 0, "G: 255");
    CrearObjeto(EtiquetaP+"BEAR_B",   OBJ_LABEL, 330, 30, 0, 0, "B: 255");
