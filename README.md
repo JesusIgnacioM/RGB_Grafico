@@ -20,7 +20,7 @@ El proceso es una reacción en cadena, inicia en rojo puro (255,0,0). Incrementa
    color ColorBull = StringToColor(StringFormat("%d,%d,%d", R, G, B));
    color ColorBear = StringToColor(StringFormat("%d,%d,%d", 255-R, 255-G, 255-B));
 ```
-Para que las velas alcistas y las bajistas tengan los valores invertidos y poder convertirlos en algo que pueda ser interpretado como un color, fue necesario convertirlo a string con un formato especifico y después que este a su vez se convirtiera en un formato de colores, para invertir los colores basta con restar 255 a cada uno de los colores y quedan invertidos, ya que mientras las alcistas son (255,0,0) las bajistas son (0,255,255).
+Para que las velas alcistas y las bajistas tengan los valores invertidos y poder convertirlos en algo que pueda ser interpretado como un color, fue necesario convertirlo a string con un formato especifico y después que este a su vez se convirtiera en un formato de colores, para invertir los colores basta con restar 255 a cada uno de los colores y estos quedan invertidos, ya que mientras las alcistas son (255,0,0) las bajistas son (0,255,255).
 
 ![](Imagenes/Imagen_2.png)
 _Representación visual de la inversión de colores_
